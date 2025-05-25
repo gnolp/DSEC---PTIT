@@ -1,6 +1,6 @@
 import os
-
-new_id = input("Nhập mã sinh viên mới (ví dụ: B22DCCN504): ").strip()
+import sys
+new_id = sys.argv[1].upper()
 
 keys_folder = "keys"
 ans_folder = "ans"
